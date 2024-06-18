@@ -1,0 +1,70 @@
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('C:\Users\ASUS\Desktop\test react\my-portfolio\src\assets\new.avif'); /*Add a nice background image */
+    background-size: cover;/* Adjusts image to cover entire container */
+    background-position: top; /* Centers the image */
+    background-repeat: no-repeat; /* Ensures the image does not repeat */
+    color: white;
+    text-align: center;
+    
+    background-color: rgb(54, 54, 84);
+    
+}
+  .hero-content {
+    max-width: 600px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7); /* Add a semi-transparent background to the text */
+    border-radius: 10px;
+    
+
+  }
+  
+  .hero h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+  }
+  .contact{
+    text-decoration: none;
+    background-color: burlywood;
+    color: brown;
+    border-radius: 100px;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px;
+    padding: 17px 26px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #8b625c;
+  }
+  .me{
+    
+    float: right;
+    padding-left: 150px;
+    height: 75%;
+   
+
+
+    
+    
+  }
