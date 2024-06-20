@@ -25,6 +25,13 @@
     display: flex;
     gap: 47px;
     list-style: none;
+    cursor: pointer;
+}
+.menuItems a:hover {
+    color: burlywood;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid burlywood;
+
 }
 .menuItems a{
     font-size: 25px;
